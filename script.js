@@ -1,5 +1,5 @@
 //your code here
-function majorityElement(arr) {
+function majorElement(arr) {
     arr.sort((a, b) => a - b);
 
   const l = arr.length;
