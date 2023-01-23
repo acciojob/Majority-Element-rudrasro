@@ -5,8 +5,8 @@ function majorityElement(arr) {
   const l = arr.length;
 
   if (l % 2 === 0) {
-    return arr[l / 2]
+    console.log(arr[l / 2])
   } else {
-    return arr[(l - 1) / 2]
+    console.log(arr[(l - 1) / 2])
   }
 }
